@@ -119,7 +119,7 @@ app.get("/api/redis/getUser", (req, res, next) => {
   const query = req.query;
 
   try {
-    client.hgetall(query.user, function (err, result) {
+    client.hgetall(query.id, function (err, result) {
       if (err) {
         return res.status(500).send("Error");
       }
