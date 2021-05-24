@@ -2,7 +2,7 @@
 
 1. Clone repo to your local computer
 2. Run "npm install" to install node modules
-3. Run "npm start" to satart node.js server with end-points
+3. Run "npm start" to start node.js server with end-points
 
 ## End points
 
