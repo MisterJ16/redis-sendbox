@@ -1,0 +1,32 @@
+{
+  "name": "redis-sendbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run test",
+    "start": "nodemon ./server.js localhost:3001"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "2500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterJ16/redis-sendbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterJ16/redis-sendbox/issues"
+  },
+  "homepage": "https://github.com/MisterJ16/redis-sendbox#readme"
+}
